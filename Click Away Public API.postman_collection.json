@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "a9427d9a-c185-47aa-9d62-eb1f37aa23bc",
+		"name": "Click Away Public API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add appointment From Merchant",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "loyalty-date",
+						"value": "2020-12-18 11:38:57",
+						"type": "text"
+					},
+					{
+						"key": "loyalty-signature",
+						"value": "eb6412bdfedcffb3258b186837aca25147315fe707895ba84f491c2b6faafbc2",
+						"type": "text"
+					},
+					{
+						"key": "loyalty-web-id",
+						"value": "70ee27ddec8f4c2788fe86be914009bf",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"products\": {\n        \"action\": \"click_away\",\n        \"subaction\": \"add_appointment\",\n        \"code\": \"358515\",\n        \"extra_fields\": {\n            \"merchant\":\"name\",\n            \"afm\":\"afm\",\n            \"address\":\"address\",\n            \"date\":\"2020-12-18\",\n            \"time\":\"11:00\",\n            \"comments\":\"\"\n        }\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://engage.warp.ly/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/",
+					"protocol": "https",
+					"host": [
+						"engage",
+						"warp",
+						"ly"
+					],
+					"path": [
+						"api",
+						"mobile",
+						"v2",
+						"ed840ad545884deeb6c6b699176797ed",
+						"context",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get appointments",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "loyalty-date",
+						"value": "2020-12-18 11:38:57",
+						"type": "text"
+					},
+					{
+						"key": "loyalty-signature",
+						"value": "eb6412bdfedcffb3258b186837aca25147315fe707895ba84f491c2b6faafbc2",
+						"type": "text"
+					},
+					{
+						"key": "loyalty-web-id",
+						"value": "70ee27ddec8f4c2788fe86be914009bf",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"products\":{\n    \"action\":\"click_away\",\n    \"subaction\":\"get_appointments\"\n}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://engage.warp.ly/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/",
+					"protocol": "https",
+					"host": [
+						"engage",
+						"warp",
+						"ly"
+					],
+					"path": [
+						"api",
+						"mobile",
+						"v2",
+						"ed840ad545884deeb6c6b699176797ed",
+						"context",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete appointment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "loyalty-date",
+						"type": "text",
+						"value": "2020-12-18 11:38:57"
+					},
+					{
+						"key": "loyalty-signature",
+						"type": "text",
+						"value": "eb6412bdfedcffb3258b186837aca25147315fe707895ba84f491c2b6faafbc2"
+					},
+					{
+						"key": "loyalty-web-id",
+						"type": "text",
+						"value": "70ee27ddec8f4c2788fe86be914009bf"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"products\":{\n    \"action\":\"click_away\",\n    \"subaction\":\"remove_appointment\",\n    \"code\":\"358515\"\n}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://engage.warp.ly/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/",
+					"protocol": "https",
+					"host": [
+						"engage",
+						"warp",
+						"ly"
+					],
+					"path": [
+						"api",
+						"mobile",
+						"v2",
+						"ed840ad545884deeb6c6b699176797ed",
+						"context",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
