@@ -15,7 +15,7 @@
 Με τα παραπάνω στοιχεία θα χρειαστεί να γίνει μια κλήση με τη μέθοδο `POST` στο endpoint:
 
 ```
-https://engage.warp.ly/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/
+https://app.ekatanalotis.gov.gr/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/
 ```
 
 προσθέτωντας τους παρακάτω headers στην κλήση:
@@ -51,7 +51,7 @@ def generate_headers_from_keys(web_id,api_key):
 
 1.Δημιουργία ραντεβού για παραλαβή Click Away
 
-- POST: https://engage.warp.ly/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/
+- POST: https://app.ekatanalotis.gov.gr/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/
 - HEADERS: όπως προσδιορίζονται στην προηγούμενη παράγραφο
 - BODY:
 ```
@@ -86,7 +86,7 @@ def generate_headers_from_keys(web_id,api_key):
 
 2.Ανάκτηση όλων των ραντεβού
 
-- POST: https://engage.warp.ly/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/
+- POST: https://app.ekatanalotis.gov.gr/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/
 - HEADERS: όπως προσδιορίζονται στην προηγούμενη παράγραφο
 - BODY:
 ```
@@ -101,7 +101,7 @@ def generate_headers_from_keys(web_id,api_key):
 
 2. Διαγραφή ραντεβού 
 
-- POST: https://engage.warp.ly/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/
+- POST: https://app.ekatanalotis.gov.gr/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/
 - HEADERS: όπως προσδιορίζονται στην προηγούμενη παράγραφο
 - BODY:
 ```
