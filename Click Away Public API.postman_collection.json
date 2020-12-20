@@ -36,7 +36,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://engage.warp.ly/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/",
+					"raw": "https://app.ekatanalotis.gov.gr/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/",
 					"protocol": "https",
 					"host": [
 						"engage",
@@ -86,7 +86,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://engage.warp.ly/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/",
+					"raw": "https://app.ekatanalotis.gov.gr/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/",
 					"protocol": "https",
 					"host": [
 						"engage",
@@ -136,7 +136,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://engage.warp.ly/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/",
+					"raw": "https://app.ekatanalotis.gov.gr/api/mobile/v2/ed840ad545884deeb6c6b699176797ed/context/",
 					"protocol": "https",
 					"host": [
 						"engage",
